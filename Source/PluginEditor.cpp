@@ -47,6 +47,4 @@ void ParaCompAudioProcessorEditor::resized()
     fb.performLayout (getLocalBounds()
         .withSizeKeepingCentre (getWidth() - 80, getHeight() - 40)
         .toFloat());
-
-    fb.performLayout (getLocalBounds().toFloat());
 }
