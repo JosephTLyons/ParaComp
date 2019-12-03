@@ -38,7 +38,7 @@ void ParaCompAudioProcessorEditor::resized()
     FlexBox fb;
     fb.flexDirection = FlexBox::Direction::row;
 
-    const unsigned int FLEX_VALUE = 2.5;
+    const float FLEX_VALUE = 2.5;
     fb.items.add (FlexItem (compressorUIOne).withFlex (FLEX_VALUE));
     fb.items.add (FlexItem (compressorUITwo).withFlex (FLEX_VALUE));
     fb.items.add (FlexItem (compressorUIThree).withFlex (FLEX_VALUE));

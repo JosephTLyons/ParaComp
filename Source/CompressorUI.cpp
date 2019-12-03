@@ -37,7 +37,7 @@ void CompressorUI::resized()
     FlexBox fb;
     fb.flexDirection = FlexBox::Direction::row;
 
-    const unsigned int FLEX_VALUE = 2.5;
+    const float FLEX_VALUE = 2.5;
     fb.items.add (FlexItem (controlStripOne).withFlex (FLEX_VALUE));
     fb.items.add (FlexItem (controlStripTwo).withFlex (FLEX_VALUE));
     fb.items.add (FlexItem (levelSlider).withFlex (FLEX_VALUE));

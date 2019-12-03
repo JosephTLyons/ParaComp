@@ -36,7 +36,7 @@ void ControlStrip::resized()
     FlexBox fb;
     fb.flexDirection = FlexBox::Direction::column;
 
-    const short unsigned int FLEX_VALUE = 2.5;
+    const float FLEX_VALUE = 2.5;
     const short unsigned int MAX_HEIGHT = 100;
     fb.items.add (FlexItem (threeWayToggleOne).withFlex (FLEX_VALUE).withMaxHeight (MAX_HEIGHT));
     fb.items.add (FlexItem (threeWayToggleTwo).withFlex (FLEX_VALUE).withMaxHeight (MAX_HEIGHT));

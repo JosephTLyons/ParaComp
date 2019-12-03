@@ -37,7 +37,7 @@ void ThreeWayToggle::resized()
     FlexBox fb;
     fb.flexDirection = FlexBox::Direction::column;
 
-    const unsigned int FLEX_VALUE = 2.5;
+    const float FLEX_VALUE = 2.5;
     fb.items.add (FlexItem (toggleOne).withFlex (FLEX_VALUE));
     fb.items.add (FlexItem (toggleTwo).withFlex (FLEX_VALUE));
     fb.items.add (FlexItem (toggleThree).withFlex (FLEX_VALUE));
