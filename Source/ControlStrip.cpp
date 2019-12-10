@@ -13,6 +13,8 @@
 
 //==============================================================================
 ControlStrip::ControlStrip()
+    : threeWayToggleOne (3),
+      threeWayToggleTwo (3)
 {
     addAndMakeVisible (threeWayToggleOne);
     addAndMakeVisible (threeWayToggleTwo);

@@ -1,7 +1,7 @@
 /*
   ==============================================================================
 
-    ThreeWayToggle.h
+    NWayToggle.h
     Created: 30 Nov 2019 12:37:03am
     Author:  Joseph Lyons
 
@@ -15,12 +15,12 @@
 //==============================================================================
 /*
 */
-class ThreeWayToggle    : public ToggleButton,
+class NWayToggle    : public ToggleButton,
                           public ToggleButton::Listener
 {
 public:
-    ThreeWayToggle();
-    ~ThreeWayToggle();
+    NWayToggle (const unsigned short int numberOfToggles);
+    ~NWayToggle();
 
     void paint (Graphics&) override;
     void resized() override;
@@ -28,9 +28,6 @@ public:
     virtual void buttonClicked (Button* buttonThatWasClicked) override;
 
 private:
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ThreeWayToggle)
-
-    ToggleButton toggleOne;
-    ToggleButton toggleTwo;
-    ToggleButton toggleThree;
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NWayToggle)
+    OwnedArray<ToggleButton> toggleButtons;
 };

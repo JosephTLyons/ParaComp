@@ -11,7 +11,7 @@
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
-#include "ThreeWayToggle.h"
+#include "NWayToggle.h"
 
 //==============================================================================
 /*
@@ -28,8 +28,8 @@ public:
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ControlStrip);
 
-    ThreeWayToggle threeWayToggleOne;
-    ThreeWayToggle threeWayToggleTwo;
+    NWayToggle threeWayToggleOne;
+    NWayToggle threeWayToggleTwo;
 
     Slider rotaryKnob;
 };
