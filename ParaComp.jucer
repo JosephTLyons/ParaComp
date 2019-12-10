@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="LsLL59" name="ParaComp" projectType="audioplug" jucerVersion="5.4.4">
+<JUCERPROJECT id="LsLL59" name="ParaComp" projectType="audioplug" jucerVersion="5.4.5">
   <MAINGROUP id="pyt3nN" name="ParaComp">
     <GROUP id="{E0837186-D8CB-196E-ABCE-A7C3907FF5D4}" name="Source">
       <FILE id="wwlOJR" name="PluginProcessor.h" compile="0" resource="0"
