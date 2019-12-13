@@ -36,7 +36,6 @@ ControlStrip::~ControlStrip()
 
 void ControlStrip::paint (Graphics& g)
 {
-    g.fillAll (UIColors::getBackgroungColor());
 }
 
 void ControlStrip::resized()

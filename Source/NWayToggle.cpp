@@ -32,7 +32,6 @@ NWayToggle::~NWayToggle()
 
 void NWayToggle::paint (Graphics& g)
 {
-    g.fillAll (UIColors::getBackgroungColor());
 }
 
 void NWayToggle::resized()

@@ -35,7 +35,6 @@ CompressorUI::~CompressorUI()
 
 void CompressorUI::paint (Graphics& g)
 {
-    g.fillAll (UIColors::getBackgroungColor());
 }
 
 void CompressorUI::resized()
