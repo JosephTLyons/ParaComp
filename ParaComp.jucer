@@ -10,16 +10,15 @@
       <FILE id="MmBezI" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
       <FILE id="RsvMeP" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="Q45x3s" name="ThreeWayToggle.h" compile="0" resource="0"
-            file="Source/ThreeWayToggle.h"/>
-      <FILE id="r6ivo4" name="ThreeWayToggle.cpp" compile="1" resource="0"
-            file="Source/ThreeWayToggle.cpp"/>
-      <FILE id="uYwsmf" name="ControlStrip.h" compile="0" resource="0" file="Source/ControlStrip.h"/>
-      <FILE id="NqlT8O" name="ControlStrip.cpp" compile="1" resource="0"
-            file="Source/ControlStrip.cpp"/>
       <FILE id="QKFzVK" name="CompressorUI.h" compile="0" resource="0" file="Source/CompressorUI.h"/>
       <FILE id="n1SNRb" name="CompressorUI.cpp" compile="1" resource="0"
             file="Source/CompressorUI.cpp"/>
+      <FILE id="uYwsmf" name="ControlStrip.h" compile="0" resource="0" file="Source/ControlStrip.h"/>
+      <FILE id="NqlT8O" name="ControlStrip.cpp" compile="1" resource="0"
+            file="Source/ControlStrip.cpp"/>
+      <FILE id="GljSb5" name="NWayToggle.h" compile="0" resource="0" file="Source/NWayToggle.h"/>
+      <FILE id="Eg9JY3" name="NWayToggle.cpp" compile="1" resource="0" file="Source/NWayToggle.cpp"/>
+      <FILE id="XhGckp" name="UIColors.h" compile="0" resource="0" file="Source/UIColors.h"/>
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>

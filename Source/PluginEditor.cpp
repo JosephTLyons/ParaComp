@@ -10,6 +10,7 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
+#include "UIColors.h"
 
 //==============================================================================
 ParaCompAudioProcessorEditor::ParaCompAudioProcessorEditor (ParaCompAudioProcessor& p)
@@ -30,7 +31,7 @@ ParaCompAudioProcessorEditor::~ParaCompAudioProcessorEditor()
 //==============================================================================
 void ParaCompAudioProcessorEditor::paint (Graphics& g)
 {
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
+    g.fillAll (UIColors::getBackgroungColor());
 }
 
 void ParaCompAudioProcessorEditor::resized()

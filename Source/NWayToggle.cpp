@@ -10,6 +10,7 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "NWayToggle.h"
+#include "UIColors.h"
 
 //==============================================================================
 NWayToggle::NWayToggle (const unsigned short int numberOfToggles)
@@ -19,6 +20,9 @@ NWayToggle::NWayToggle (const unsigned short int numberOfToggles)
         toggleButtons.add (new ToggleButton());
         addAndMakeVisible (toggleButtons[i]);
         toggleButtons[i]->addListener (this);
+
+        toggleButtons[i]->setColour(ToggleButton::ColourIds::tickColourId, UIColors::getSliderThumbColor());
+        toggleButtons[i]->setColour(ToggleButton::ColourIds::textColourId, UIColors::getSliderThumbColor());
     }
 }
 
@@ -28,7 +32,7 @@ NWayToggle::~NWayToggle()
 
 void NWayToggle::paint (Graphics& g)
 {
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
+    g.fillAll (UIColors::getBackgroungColor());
 }
 
 void NWayToggle::resized()

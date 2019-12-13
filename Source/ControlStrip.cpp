@@ -10,6 +10,7 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "ControlStrip.h"
+#include "UIColors.h"
 
 //==============================================================================
 ControlStrip::ControlStrip()
@@ -21,6 +22,11 @@ ControlStrip::ControlStrip()
 
     rotaryKnob.setTextBoxStyle (Slider::TextBoxBelow, false, 70, 25);
     rotaryKnob.setSliderStyle (Slider::RotaryVerticalDrag);
+
+    rotaryKnob.setColour (Slider::ColourIds::thumbColourId, UIColors::getSliderThumbColor());
+    rotaryKnob.setColour (Slider::ColourIds::rotarySliderOutlineColourId, UIColors::getSliderBackgroundColor());
+    rotaryKnob.setColour (Slider::ColourIds::rotarySliderFillColourId, UIColors::getSliderForegroundColor());
+
     addAndMakeVisible (rotaryKnob);
 }
 
@@ -30,7 +36,7 @@ ControlStrip::~ControlStrip()
 
 void ControlStrip::paint (Graphics& g)
 {
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
+    g.fillAll (UIColors::getBackgroungColor());
 }
 
 void ControlStrip::resized()

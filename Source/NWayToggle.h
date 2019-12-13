@@ -16,7 +16,7 @@
 /*
 */
 class NWayToggle    : public ToggleButton,
-                          public ToggleButton::Listener
+                      public ToggleButton::Listener
 {
 public:
     NWayToggle (const unsigned short int numberOfToggles);
